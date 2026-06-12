@@ -1,0 +1,638 @@
+{
+  "materials": [
+    {
+      "id": "MINERAL_ORE",
+      "name": "Metal Bars",
+      "type": "Ore"
+    },
+    {
+      "id": "FIBER_FLAX",
+      "name": "Cloth",
+      "type": "Fiber"
+    },
+    {
+      "id": "WOOD_BIRCH",
+      "name": "Planks",
+      "type": "Wood"
+    },
+    {
+      "id": "HIDE_LEATHER",
+      "name": "Leather",
+      "type": "Hide"
+    },
+    {
+      "id": "CULTIST_ROBE_ARTIFACT",
+      "name": "Cultist Robe Artifact",
+      "type": "Artifact"
+    },
+    {
+      "id": "FEY_HELMET_ARTIFACT",
+      "name": "Fey Plate Helmet Artifact",
+      "type": "Artifact"
+    }
+  ],
+  "items": [
+    {
+      "id": "2H_BOW_KEEPER",
+      "name": "Bow of Badon",
+      "category": "Weapon",
+      "parent_tree": "Weapon",
+      "is_artifact": true,
+      "craft_fame": 0,
+      "nutrition_cost": 0,
+      "artifact_name": "Carved Bone",
+      "artifact_id": "ARTEFACT_2H_BOW_KEEPER"
+    },
+    {
+      "id": "BAG",
+      "name": "Bag",
+      "category": "Accessory",
+      "parent_tree": "Bag",
+      "is_artifact": false,
+      "craft_fame": 0,
+      "nutrition_cost": 0,
+      "artifact_name": "",
+      "artifact_id": ""
+    }
+  ],
+  "recipes": [
+    {
+      "item_id": "2H_BOW_KEEPER",
+      "ingredients": [
+        {
+          "material_id": "WOOD_BIRCH",
+          "quantity": 32
+        }
+      ]
+    },
+    {
+      "item_id": "BAG",
+      "ingredients": [
+        {
+          "material_id": "FIBER_FLAX",
+          "quantity": 8
+        },
+        {
+          "material_id": "HIDE_LEATHER",
+          "quantity": 8
+        }
+      ]
+    }
+  ],
+  "prices": [
+    {
+      "material_id": "T4_MINERAL_ORE",
+      "price": 90,
+      "last_updated": "2026-06-10T18:31:35.760Z"
+    },
+    {
+      "material_id": "T4_MINERAL_ORE@1",
+      "price": 198,
+      "last_updated": "2026-06-10T18:31:35.763Z"
+    },
+    {
+      "material_id": "T4_MINERAL_ORE@2",
+      "price": 436,
+      "last_updated": "2026-06-10T18:31:35.765Z"
+    },
+    {
+      "material_id": "T4_MINERAL_ORE@3",
+      "price": 958,
+      "last_updated": "2026-06-10T18:31:35.767Z"
+    },
+    {
+      "material_id": "T4_MINERAL_ORE@4",
+      "price": 2108,
+      "last_updated": "2026-06-10T18:31:35.768Z"
+    },
+    {
+      "material_id": "T5_MINERAL_ORE",
+      "price": 252,
+      "last_updated": "2026-06-10T18:31:35.770Z"
+    },
+    {
+      "material_id": "T5_MINERAL_ORE@1",
+      "price": 554,
+      "last_updated": "2026-06-10T18:31:35.775Z"
+    },
+    {
+      "material_id": "T5_MINERAL_ORE@2",
+      "price": 1220,
+      "last_updated": "2026-06-10T18:31:35.777Z"
+    },
+    {
+      "material_id": "T5_MINERAL_ORE@3",
+      "price": 2683,
+      "last_updated": "2026-06-10T18:31:35.779Z"
+    },
+    {
+      "material_id": "T5_MINERAL_ORE@4",
+      "price": 5903,
+      "last_updated": "2026-06-10T18:31:35.806Z"
+    },
+    {
+      "material_id": "T6_MINERAL_ORE",
+      "price": 706,
+      "last_updated": "2026-06-10T18:31:35.809Z"
+    },
+    {
+      "material_id": "T6_MINERAL_ORE@1",
+      "price": 1552,
+      "last_updated": "2026-06-10T18:31:35.814Z"
+    },
+    {
+      "material_id": "T6_MINERAL_ORE@2",
+      "price": 3415,
+      "last_updated": "2026-06-10T18:31:35.817Z"
+    },
+    {
+      "material_id": "T6_MINERAL_ORE@3",
+      "price": 7513,
+      "last_updated": "2026-06-10T18:31:35.820Z"
+    },
+    {
+      "material_id": "T6_MINERAL_ORE@4",
+      "price": 16529,
+      "last_updated": "2026-06-10T18:31:35.823Z"
+    },
+    {
+      "material_id": "T7_MINERAL_ORE",
+      "price": 1976,
+      "last_updated": "2026-06-10T18:31:35.838Z"
+    },
+    {
+      "material_id": "T7_MINERAL_ORE@1",
+      "price": 4346,
+      "last_updated": "2026-06-10T18:31:35.845Z"
+    },
+    {
+      "material_id": "T7_MINERAL_ORE@2",
+      "price": 9562,
+      "last_updated": "2026-06-10T18:31:35.849Z"
+    },
+    {
+      "material_id": "T7_MINERAL_ORE@3",
+      "price": 21037,
+      "last_updated": "2026-06-10T18:31:35.855Z"
+    },
+    {
+      "material_id": "T7_MINERAL_ORE@4",
+      "price": 46281,
+      "last_updated": "2026-06-10T18:31:35.864Z"
+    },
+    {
+      "material_id": "T8_MINERAL_ORE",
+      "price": 5532,
+      "last_updated": "2026-06-10T18:31:35.869Z"
+    },
+    {
+      "material_id": "T8_MINERAL_ORE@1",
+      "price": 12170,
+      "last_updated": "2026-06-10T18:31:35.924Z"
+    },
+    {
+      "material_id": "T8_MINERAL_ORE@2",
+      "price": 26774,
+      "last_updated": "2026-06-10T18:31:35.999Z"
+    },
+    {
+      "material_id": "T8_MINERAL_ORE@3",
+      "price": 58904,
+      "last_updated": "2026-06-10T18:31:36.006Z"
+    },
+    {
+      "material_id": "T8_MINERAL_ORE@4",
+      "price": 129588,
+      "last_updated": "2026-06-10T18:31:36.012Z"
+    },
+    {
+      "material_id": "T4_FIBER_FLAX",
+      "price": 80,
+      "last_updated": "2026-06-10T18:31:36.017Z"
+    },
+    {
+      "material_id": "T4_FIBER_FLAX@1",
+      "price": 176,
+      "last_updated": "2026-06-10T18:31:36.023Z"
+    },
+    {
+      "material_id": "T4_FIBER_FLAX@2",
+      "price": 387,
+      "last_updated": "2026-06-10T18:31:36.079Z"
+    },
+    {
+      "material_id": "T4_FIBER_FLAX@3",
+      "price": 852,
+      "last_updated": "2026-06-10T18:31:36.090Z"
+    },
+    {
+      "material_id": "T4_FIBER_FLAX@4",
+      "price": 1874,
+      "last_updated": "2026-06-10T18:31:36.097Z"
+    },
+    {
+      "material_id": "T5_FIBER_FLAX",
+      "price": 224,
+      "last_updated": "2026-06-10T18:31:36.103Z"
+    },
+    {
+      "material_id": "T5_FIBER_FLAX@1",
+      "price": 493,
+      "last_updated": "2026-06-10T18:31:36.110Z"
+    },
+    {
+      "material_id": "T5_FIBER_FLAX@2",
+      "price": 1084,
+      "last_updated": "2026-06-10T18:31:36.115Z"
+    },
+    {
+      "material_id": "T5_FIBER_FLAX@3",
+      "price": 2385,
+      "last_updated": "2026-06-10T18:31:36.167Z"
+    },
+    {
+      "material_id": "T5_FIBER_FLAX@4",
+      "price": 5247,
+      "last_updated": "2026-06-10T18:31:36.179Z"
+    },
+    {
+      "material_id": "T6_FIBER_FLAX",
+      "price": 627,
+      "last_updated": "2026-06-10T18:31:36.184Z"
+    },
+    {
+      "material_id": "T6_FIBER_FLAX@1",
+      "price": 1380,
+      "last_updated": "2026-06-10T18:31:36.189Z"
+    },
+    {
+      "material_id": "T6_FIBER_FLAX@2",
+      "price": 3036,
+      "last_updated": "2026-06-10T18:31:36.198Z"
+    },
+    {
+      "material_id": "T6_FIBER_FLAX@3",
+      "price": 6678,
+      "last_updated": "2026-06-10T18:31:36.258Z"
+    },
+    {
+      "material_id": "T6_FIBER_FLAX@4",
+      "price": 14693,
+      "last_updated": "2026-06-10T18:31:36.270Z"
+    },
+    {
+      "material_id": "T7_FIBER_FLAX",
+      "price": 1756,
+      "last_updated": "2026-06-10T18:31:36.278Z"
+    },
+    {
+      "material_id": "T7_FIBER_FLAX@1",
+      "price": 3864,
+      "last_updated": "2026-06-10T18:31:36.286Z"
+    },
+    {
+      "material_id": "T7_FIBER_FLAX@2",
+      "price": 8500,
+      "last_updated": "2026-06-10T18:31:36.368Z"
+    },
+    {
+      "material_id": "T7_FIBER_FLAX@3",
+      "price": 18700,
+      "last_updated": "2026-06-10T18:31:36.326Z"
+    },
+    {
+      "material_id": "T7_FIBER_FLAX@4",
+      "price": 41139,
+      "last_updated": "2026-06-10T18:31:36.329Z"
+    },
+    {
+      "material_id": "T8_FIBER_FLAX",
+      "price": 4917,
+      "last_updated": "2026-06-10T18:31:36.391Z"
+    },
+    {
+      "material_id": "T8_FIBER_FLAX@1",
+      "price": 10818,
+      "last_updated": "2026-06-10T18:31:36.396Z"
+    },
+    {
+      "material_id": "T8_FIBER_FLAX@2",
+      "price": 23799,
+      "last_updated": "2026-06-10T18:31:36.425Z"
+    },
+    {
+      "material_id": "T8_FIBER_FLAX@3",
+      "price": 52359,
+      "last_updated": "2026-06-10T18:31:36.453Z"
+    },
+    {
+      "material_id": "T8_FIBER_FLAX@4",
+      "price": 115189,
+      "last_updated": "2026-06-10T18:31:36.465Z"
+    },
+    {
+      "material_id": "T4_WOOD_BIRCH",
+      "price": 75,
+      "last_updated": "2026-06-10T18:31:36.487Z"
+    },
+    {
+      "material_id": "T4_WOOD_BIRCH@1",
+      "price": 165,
+      "last_updated": "2026-06-10T18:31:36.499Z"
+    },
+    {
+      "material_id": "T4_WOOD_BIRCH@2",
+      "price": 363,
+      "last_updated": "2026-06-10T18:31:36.520Z"
+    },
+    {
+      "material_id": "T4_WOOD_BIRCH@3",
+      "price": 799,
+      "last_updated": "2026-06-10T18:31:36.525Z"
+    },
+    {
+      "material_id": "T4_WOOD_BIRCH@4",
+      "price": 1757,
+      "last_updated": "2026-06-10T18:31:36.563Z"
+    },
+    {
+      "material_id": "T5_WOOD_BIRCH",
+      "price": 210,
+      "last_updated": "2026-06-10T18:31:36.540Z"
+    },
+    {
+      "material_id": "T5_WOOD_BIRCH@1",
+      "price": 462,
+      "last_updated": "2026-06-10T18:31:36.548Z"
+    },
+    {
+      "material_id": "T5_WOOD_BIRCH@2",
+      "price": 1016,
+      "last_updated": "2026-06-10T18:31:36.583Z"
+    },
+    {
+      "material_id": "T5_WOOD_BIRCH@3",
+      "price": 2236,
+      "last_updated": "2026-06-10T18:31:36.670Z"
+    },
+    {
+      "material_id": "T5_WOOD_BIRCH@4",
+      "price": 4919,
+      "last_updated": "2026-06-10T18:31:36.680Z"
+    },
+    {
+      "material_id": "T6_WOOD_BIRCH",
+      "price": 588,
+      "last_updated": "2026-06-10T18:31:36.731Z"
+    },
+    {
+      "material_id": "T6_WOOD_BIRCH@1",
+      "price": 1294,
+      "last_updated": "2026-06-10T18:31:36.754Z"
+    },
+    {
+      "material_id": "T6_WOOD_BIRCH@2",
+      "price": 2846,
+      "last_updated": "2026-06-10T18:31:36.744Z"
+    },
+    {
+      "material_id": "T6_WOOD_BIRCH@3",
+      "price": 6261,
+      "last_updated": "2026-06-10T18:31:36.771Z"
+    },
+    {
+      "material_id": "T6_WOOD_BIRCH@4",
+      "price": 13774,
+      "last_updated": "2026-06-10T18:31:36.781Z"
+    },
+    {
+      "material_id": "T7_WOOD_BIRCH",
+      "price": 1646,
+      "last_updated": "2026-06-10T18:31:36.784Z"
+    },
+    {
+      "material_id": "T7_WOOD_BIRCH@1",
+      "price": 3622,
+      "last_updated": "2026-06-10T18:31:36.854Z"
+    },
+    {
+      "material_id": "T7_WOOD_BIRCH@2",
+      "price": 7969,
+      "last_updated": "2026-06-10T18:31:36.856Z"
+    },
+    {
+      "material_id": "T7_WOOD_BIRCH@3",
+      "price": 17531,
+      "last_updated": "2026-06-10T18:31:36.905Z"
+    },
+    {
+      "material_id": "T7_WOOD_BIRCH@4",
+      "price": 38568,
+      "last_updated": "2026-06-10T18:31:36.894Z"
+    },
+    {
+      "material_id": "T8_WOOD_BIRCH",
+      "price": 4610,
+      "last_updated": "2026-06-10T18:31:36.897Z"
+    },
+    {
+      "material_id": "T8_WOOD_BIRCH@1",
+      "price": 10142,
+      "last_updated": "2026-06-10T18:31:36.919Z"
+    },
+    {
+      "material_id": "T8_WOOD_BIRCH@2",
+      "price": 22312,
+      "last_updated": "2026-06-10T18:31:36.924Z"
+    },
+    {
+      "material_id": "T8_WOOD_BIRCH@3",
+      "price": 49086,
+      "last_updated": "2026-06-10T18:31:36.944Z"
+    },
+    {
+      "material_id": "T8_WOOD_BIRCH@4",
+      "price": 107990,
+      "last_updated": "2026-06-10T18:31:36.948Z"
+    },
+    {
+      "material_id": "T4_HIDE_LEATHER",
+      "price": 100,
+      "last_updated": "2026-06-10T18:31:36.950Z"
+    },
+    {
+      "material_id": "T4_HIDE_LEATHER@1",
+      "price": 220,
+      "last_updated": "2026-06-10T18:31:37.014Z"
+    },
+    {
+      "material_id": "T4_HIDE_LEATHER@2",
+      "price": 484,
+      "last_updated": "2026-06-10T18:31:37.016Z"
+    },
+    {
+      "material_id": "T4_HIDE_LEATHER@3",
+      "price": 1065,
+      "last_updated": "2026-06-10T18:31:37.038Z"
+    },
+    {
+      "material_id": "T4_HIDE_LEATHER@4",
+      "price": 2343,
+      "last_updated": "2026-06-10T18:31:37.023Z"
+    },
+    {
+      "material_id": "T5_HIDE_LEATHER",
+      "price": 280,
+      "last_updated": "2026-06-10T18:31:37.052Z"
+    },
+    {
+      "material_id": "T5_HIDE_LEATHER@1",
+      "price": 616,
+      "last_updated": "2026-06-10T18:31:37.060Z"
+    },
+    {
+      "material_id": "T5_HIDE_LEATHER@2",
+      "price": 1355,
+      "last_updated": "2026-06-10T18:31:37.154Z"
+    },
+    {
+      "material_id": "T5_HIDE_LEATHER@3",
+      "price": 2981,
+      "last_updated": "2026-06-10T18:31:37.161Z"
+    },
+    {
+      "material_id": "T5_HIDE_LEATHER@4",
+      "price": 6559,
+      "last_updated": "2026-06-10T18:31:37.165Z"
+    },
+    {
+      "material_id": "T6_HIDE_LEATHER",
+      "price": 784,
+      "last_updated": "2026-06-10T18:31:37.200Z"
+    },
+    {
+      "material_id": "T6_HIDE_LEATHER@1",
+      "price": 1725,
+      "last_updated": "2026-06-10T18:31:37.203Z"
+    },
+    {
+      "material_id": "T6_HIDE_LEATHER@2",
+      "price": 3795,
+      "last_updated": "2026-06-10T18:31:37.206Z"
+    },
+    {
+      "material_id": "T6_HIDE_LEATHER@3",
+      "price": 8348,
+      "last_updated": "2026-06-10T18:31:37.221Z"
+    },
+    {
+      "material_id": "T6_HIDE_LEATHER@4",
+      "price": 18366,
+      "last_updated": "2026-06-10T18:31:37.224Z"
+    },
+    {
+      "material_id": "T7_HIDE_LEATHER",
+      "price": 2195,
+      "last_updated": "2026-06-10T18:31:37.229Z"
+    },
+    {
+      "material_id": "T7_HIDE_LEATHER@1",
+      "price": 4829,
+      "last_updated": "2026-06-10T18:31:37.270Z"
+    },
+    {
+      "material_id": "T7_HIDE_LEATHER@2",
+      "price": 10625,
+      "last_updated": "2026-06-10T18:31:37.276Z"
+    },
+    {
+      "material_id": "T7_HIDE_LEATHER@3",
+      "price": 23374,
+      "last_updated": "2026-06-10T18:31:37.280Z"
+    },
+    {
+      "material_id": "T7_HIDE_LEATHER@4",
+      "price": 51424,
+      "last_updated": "2026-06-10T18:31:37.301Z"
+    },
+    {
+      "material_id": "T8_HIDE_LEATHER",
+      "price": 6147,
+      "last_updated": "2026-06-10T18:31:37.305Z"
+    },
+    {
+      "material_id": "T8_HIDE_LEATHER@1",
+      "price": 13522,
+      "last_updated": "2026-06-10T18:31:37.375Z"
+    },
+    {
+      "material_id": "T8_HIDE_LEATHER@2",
+      "price": 29749,
+      "last_updated": "2026-06-10T18:31:37.360Z"
+    },
+    {
+      "material_id": "T8_HIDE_LEATHER@3",
+      "price": 65449,
+      "last_updated": "2026-06-10T18:31:37.365Z"
+    },
+    {
+      "material_id": "T8_HIDE_LEATHER@4",
+      "price": 143987,
+      "last_updated": "2026-06-10T18:31:37.383Z"
+    },
+    {
+      "material_id": "T4_CULTIST_ROBE_ARTIFACT",
+      "price": 1500,
+      "last_updated": "2026-06-10T18:31:37.437Z"
+    },
+    {
+      "material_id": "T5_CULTIST_ROBE_ARTIFACT",
+      "price": 5250,
+      "last_updated": "2026-06-10T18:31:37.445Z"
+    },
+    {
+      "material_id": "T6_CULTIST_ROBE_ARTIFACT",
+      "price": 18375,
+      "last_updated": "2026-06-10T18:31:37.482Z"
+    },
+    {
+      "material_id": "T7_CULTIST_ROBE_ARTIFACT",
+      "price": 64313,
+      "last_updated": "2026-06-10T18:31:37.470Z"
+    },
+    {
+      "material_id": "T8_CULTIST_ROBE_ARTIFACT",
+      "price": 225094,
+      "last_updated": "2026-06-10T18:31:37.533Z"
+    },
+    {
+      "material_id": "T4_FEY_HELMET_ARTIFACT",
+      "price": 1500,
+      "last_updated": "2026-06-10T18:31:37.544Z"
+    },
+    {
+      "material_id": "T5_FEY_HELMET_ARTIFACT",
+      "price": 5250,
+      "last_updated": "2026-06-10T18:31:37.617Z"
+    },
+    {
+      "material_id": "T6_FEY_HELMET_ARTIFACT",
+      "price": 18375,
+      "last_updated": "2026-06-10T18:31:37.619Z"
+    },
+    {
+      "material_id": "T7_FEY_HELMET_ARTIFACT",
+      "price": 64313,
+      "last_updated": "2026-06-10T18:31:37.673Z"
+    },
+    {
+      "material_id": "T8_FEY_HELMET_ARTIFACT",
+      "price": 225094,
+      "last_updated": "2026-06-10T18:31:37.666Z"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "passwordHash": "-5459dcef"
+  }
+}

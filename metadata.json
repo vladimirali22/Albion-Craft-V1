@@ -1,0 +1,6 @@
+{
+  "name": "Albion Craft Calculator",
+  "description": "A professional and modular craft calculator for Albion Online featuring a secure admin panel, materials & items management, craft recipes, daily price updates, and a return-rate calculation engine.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
