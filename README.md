@@ -1,20 +1,36 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+  <!-- يمكنك استبدال هذا الرابط برابط بنر قناتك الخاص مستقبلاً -->
+  <img width="1200" height="400" alt="Alt F4 Guide Banner" src="https://images.unsplash.com/photo-1612287230202-1bf1d85d1bdf?q=80&w=1200&auto=format&fit=crop" style="border-radius: 8px;" />
+
+  <h1>🎮 Alt F4 Guide | Albion Craft Calculator 🎮</h1>
+  <p><b>الأداة الإحترافية لحساب أرباح وخسائر التصنيع في عالم Albion Online</b></p>
+  
+  <hr />
 </div>
 
-# Run and deploy your AI Studio app
+## 🚀 عن المشروع (Albion Craft V1)
 
-This contains everything you need to run your app locally.
+مرحباً بك في الأداة الرسمية المقدمة من قناة **Alt F4 Guide**. هذا المشروع صُمم خصيصاً لمجتمع لاعبين Albion Online لمساعدتهم في اتخاذ أفضل القرارات الاقتصادية وتحقيق أعلى معدل ربح (Profit) ممكن من عملية التصنيع (Crafting).
 
-View your app in AI Studio: https://ai.studio/apps/6c35efe5-7cd4-4b67-978b-c00a391738b0
+### 📌 الإصدار الحالي (V1.0.0):
+* **Single Crafting Calculator:** هذا الإصدار مخصص بالكامل لحساب تكاليف وأرباح **القطعة الواحدة (Single Item)** بدقة متناهية، مع احتساب نسب الاسترداد (Return Rate)، الضرائب، وأسعار المواد الخام.
 
-## Run Locally
+### 🔮 التحديثات القادمة (Roadmap):
+* **Multi-Crafting System:** في الإصدارات القادمة، سيتم دعم نظام التصنيع المتعدد لحساب مجموعات كاملة من الأيتمز في نفس الوقت لتوفير وقت الجريند.
+* **Live Prices Sync:** ربط الأسعار مباشرة بـ Albion Online Data Project.
 
-**Prerequisites:**  Node.js
+---
 
+## 💻 تشغيل المشروع على جهازك (Run Locally)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+يمكنك تشغيل الحاسبة محلياً على جهازك بكل سهولة لمتابعة حساباتك وتطوير الكود.
+
+### 📋 المتطلبات الأساسية (Prerequisites)
+* تأكد من تثبيت بيئة **Node.js** على جهازك.
+
+### 🛠️ خطوات التشغيل
+
+1. **تثبيت المكتبات الاعتمادية:**
+   افتح الـ Terminal داخل فولدر المشروع واكتب الأمر التالي:
+```bash
+   npm install
