@@ -1,6 +1,6 @@
 <div align="center">
   <!-- يمكنك استبدال هذا الرابط برابط بنر قناتك الخاص مستقبلاً -->
-  <img width="1200" height="400" alt="Alt F4 Guide Banner" src="https://images.unsplash.com/photo-1612287230202-1bf1d85d1bdf?q=80&w=1200&auto=format&fit=crop" style="border-radius: 8px;" />
+  <img width="1200" height="400" alt="Alt F4 Guide Banner" src="https://ibb.co/bRbg0g97" style="border-radius: 8px;" />
 
   <h1>🎮 Alt F4 Guide | Albion Craft Calculator 🎮</h1>
   <p><b>الأداة الإحترافية لحساب أرباح وخسائر التصنيع في عالم Albion Online</b></p>
@@ -34,3 +34,4 @@
    افتح الـ Terminal داخل فولدر المشروع واكتب الأمر التالي:
 ```bash
    npm install
+   npm run dev
