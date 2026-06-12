@@ -1,6 +1,6 @@
 <div align="center">
   <!-- يمكنك استبدال هذا الرابط برابط بنر قناتك الخاص مستقبلاً -->
-  <img width="1200" height="400" alt="Alt F4 Guide Banner" src="https://ibb.co/bRbg0g97" style="border-radius: 8px;" />
+  <img width="1200" height="400" alt="Alt F4 Guide Banner" src="https://i.ibb.co/fGDYgYwQ/Gemini-Generated-Image-2e705u2e705u2e70.png" style="border-radius: 8px;" />
 
   <h1>🎮 Alt F4 Guide | Albion Craft Calculator 🎮</h1>
   <p><b>الأداة الإحترافية لحساب أرباح وخسائر التصنيع في عالم Albion Online</b></p>
